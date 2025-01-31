@@ -5,6 +5,7 @@
   "author": "Alex Kern <alex@kern.io> (http://kern.io)",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/kern/filepizza",
+  "type": "commonjs",
   "scripts": {
     "dev": "next",
     "dev:full": "docker compose up redis coturn -d && COTURN_ENABLED=true REDIS_URL=redis://localhost:6379 next",
